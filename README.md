@@ -21,7 +21,7 @@ The notebook was developed and run on Colab with a Tesla T4 GPU.
 
    ```bash
    !wget -q https://github.com/shizy/cp4282-proj/releases/download/v1.0.0/cp4282_data.zip
-   !unzip -q cp4282_data.zip
+   !unzip -q -o cp4282_data.zip -d data
    ```
 
    After unzipping, the files must match the layout in [Data layout](#data-layout).
